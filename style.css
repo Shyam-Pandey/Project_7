@@ -1,35 +1,35 @@
 * {
-
     padding: 0;
     margin: 0;
-
 }
-
+html{
+    font-size: 62.5%;
+}
 nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .nav-items .active-item{
     color: orangered;
 }
 .logo img {
-    width: 75px;
-    height: 75px;
-    margin-left: 46px;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-left: 4.6rem;
 }
 
 nav .actions img {
-    width: 75px;
-    height: 75px;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 .nav-items {
     display: flex;
-    gap: 69px;
-    font-size: 20px;
-    margin-top: 20px;
+    gap: 6.9rem;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
 
 .intro-section {
@@ -37,160 +37,275 @@ nav .actions img {
 }
 
 .left-section {
-    margin-left: 40px;
+    margin-left: 4rem;
 }
 
 .left-section h1 {
-    margin-top: 30px;
+    margin-top: 3rem;
     font-family: 'Fredoka One';
-    margin-left: 7px;
+    margin-left: .7rem;
 }
 
 .left-section h3 {
-    font-size: 33px;
-    margin-left: 8px;
+    font-size: 3.3rem;
+    margin-left: .8rem;
 }
 
 .left-section h3 img {
-    width: 40px;
-    height: 40px;
-    margin-top: 10px;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
 }
 
 .left-section h1 {
-    font-size: 50px;
-    margin-bottom: 7px;
+    font-size: 5rem;
+    margin-bottom: .7rem;
 }
 
 .sub-headlines {
-    margin-top: 25px;
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
-    margin-left: 54px;
+    margin-left: 5.4rem;
 }
 .img-head{
     display: flex;
     text-align: justify;
-    padding: 6px;
+    padding: .6rem;
 }
 
 .sub-headlines .img-head img {
     background-color: orangered;
-    border-radius: 50%;
-    padding: 4px;
-    margin-top: 10px;
+    border-radius: 2rem;
+    padding: .4rem;
+    margin-top: 1rem;
 }
 
 .sub-headlines h5 {
-    font-size: 17px;
-   margin-top: 10px;
-   margin-left: 30px;
+    font-size: 1.7rem;
+   margin-top: 1rem;
+   margin-left: 3rem;
     font-family: 'Poppins';
     
 }
 
 .text {
-    font-size: 14px;
-    padding: 25px;
-    margin-left: -7px;
+    font-size: 1.4rem;
+    padding: 2.5rem;
+    margin-left: -0.7rem;
     color: #cdc4c4;
 }
 
 .action-btns {
     display: flex;
-    margin-top: 40px;
-    gap: 30px;
+    margin-top: 4rem;
+    gap: 3rem;
 }
 
 .action-btns .action-btn1 {
-    width: 140px;
-    height: 40px;
-    border-radius: 20px;
-    margin-top: 10px;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin-top: -2rem;
     outline: none;
     border: none;
     background-color: orangered;
     color: white;
 }
 
-
-.right-section {
-    
-    margin-top: 133px;
-    margin-right: 95px;
+.right-section { 
+    margin-top: 13.3rem;
+    margin-right: 9.5rem;
     justify-content: space-between;
 }
 
 .discount-content {
-    margin-top: -90px;
-    margin-left: 62px;
+    margin-top: 15rem;
+    margin-left: 4.2rem;
     position: absolute;
     color: white;
     z-index: 4;
-
+    font-size: 1.6rem;
 }
 
 .discount {
-
-    margin-top: 107px;
+    margin-top: 12.07rem;
     display: block;
-    position: relative;
-    z-index: 1;
-    width: 174px;
-    height: 117px;
+    position: absolute;
+    z-index: 4;
+    width: 17.4rem;
+    height: 11.7rem;
+    margin-left: -2rem;
 }
 
-
-
-/* img {
-    position: absolute;
-    
-  } */
-
 .headphone-img {
-    margin-left: 42px;
+    margin-left: 7.2rem;
     z-index: 3;
-    width: 38vw;
-    height: 62vh;
-    margin-top: -365px;
+    width: 40rem;
+    height: 40rem;
+    margin-top: -12.5rem;
 }
 
 .dots {
     display: flex;
-    gap: 40px;
-    margin-left: 269px;
-    margin-top: 18px;
-    margin-bottom: 26px;
+    gap: 4rem;
+    margin-left: 26.9rem;
+    margin: .1rem 0 2rem 16rem;
 }
 
 .yellow-dot {
     background-color: rgb(255 255 0);
-    width: 20px;
-    height: 21px;
-    border-radius: 50%;
+    width: 2rem;
+    height: 2.1rem;
+    border-radius: .9rem;   
 }
 
 .tomato-dot{
     background-color: rgb(255, 77, 0);
-    width: 20px;
-    height: 21px;
-    border-radius: 50%;   
+    width: 2rem;
+    height: 2.1rem;
+    border-radius: .9rem;      
 }
 
 .black-dot{
     background-color: black;
-    width: 20px;
-    height: 21px;
-    border-radius: 50%;   
+    width: 2rem;
+    height: 2.1rem;
+    border-radius: .9rem;   
 }
 
  .action-btn {
-    width: 140px;
-    height: 40px;
-    border-radius: 20px;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 2rem;
     outline: none;
     border: none;
     background-color: orangered;
     color: white;
-    margin-left: 280px;
+    margin: .1rem 16rem;
+}
+
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }    
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 40%;
+    }
+
+    nav{
+        margin: -2rem 0;
+    }
+    nav .logo{
+        margin-top: 5rem;
+    }
+    nav .nav-items{
+        position: absolute;
+        top: 4rem;
+        right: 54rem; 
+        gap: 5rem; 
+        font-size: 2.5rem;
+    } 
+
+    nav .actions{
+        position: absolute;
+        top: 4rem;
+        right: 0;
+        height: 7rem;  
+    }
+    .left-section{
+        position: absolute;
+        top: 85rem;
+        left: 2;
+    }
+    .left-section h3{
+        font-size: 3.5rem;
+    }
+    .left-section h1{
+        font-size: 5rem;
+    }
+    .right-section{
+        position: absolute;
+        top: 23rem;
+        right: 0;
+    }
+    .headphone-img{
+        width: 46rem;
+        height: 50rem;
+    }
+    .discount{
+        position: absolute;
+        top: 8rem;  
+    }
+    .discount-content{
+        position: absolute;
+        top: 8rem;  
+    }
+}
+
+@media(max-width:345px){
+    html{
+        font-size: 32%;
+    }
+    .nav-items{
+        display: none;
+    }
+    .actions{
+        width: 30rem;
+        height: 10rem;
+        position: absolute;
+        right: 0;
+        top:2rem
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0 5rem;
+    }
+
+    .left-section{
+        position: absolute;
+        top: 85rem;
+        left: 2;
+    }
+    .left-section h3{
+        font-size: 3.5rem;
+    }
+    .left-section h1{
+        font-size: 5rem;
+    }
+    .right-section{
+        position: absolute;
+        top: 23rem;
+        right: 0;
+    }
+    .text{
+        font-size: 1.6rem;
+    }
+    .sub-headlines .img-head img {
+        border-radius: 20rem;
+        width: 3rem;
+    }
+    .action-btns .action-btn1{
+        font-size: 1.6rem;
+        margin: -1rem 3rem;
+    }
+    .headphone-div{
+        margin: 0 4rem;
+    }
+    .headphone-img{
+        width: 44rem;
+    }
+    .dots{
+        margin: .1rem 0 2rem 21rem; 
+    }
+    .action-btn{
+        font-size: 1.6rem; 
+        margin: .1rem 20rem;
+    }
+
 }
